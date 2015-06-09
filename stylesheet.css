@@ -1,0 +1,29 @@
+
+html{
+  /*background-color:purple;*/
+    color:black;
+  font-size: 1.3em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+ }
+ h2 {
+ text-align:center;
+ }
+ #navbar {
+   text-align:center;
+ }
+ #navbar li{
+    -webkit-transform: rotateZ(600deg);
+    transform: rotateZ(600deg);
+ }
+#navbar ul li{
+    display:inline;
+   border: solid black 3px;
+   padding: 3px;
+   font-size:23px;
+   transition:all .5s ease;
+ background-color: gold;
+}
+
+.same_line {
+    float: left; margin-right: 10px; margin-left: 10px;
+}
